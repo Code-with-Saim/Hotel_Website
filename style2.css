@@ -1,0 +1,874 @@
+body,html{
+  overflow-x: hidden;
+
+ }
+
+     .pak
+      {
+        border: 1px solid #6c757d;
+        height: 50px;
+        flex-wrap: wrap;
+        padding-top: 10px;
+        /* border: 1px solid red; */
+        flex-direction: column;
+      }
+      .info
+      {
+        border: 1px solid #6c757d;
+        height: 50px;
+        flex-wrap: wrap;
+        /* border: 1px solid red; */
+        text-align: start;
+        padding-top: 10px;
+        font-weight: bolder;          
+      }
+      .number
+      {            
+          background-repeat: no-repeat;
+          background-size: 23px ;
+          border: 1px solid #6c757d;
+          height: 50px;
+          flex-wrap: wrap;
+          text-align: right;
+          /* flex-direction: column; */
+          padding-top: 10px;
+          height: 50px;
+          font-weight: bolder;               
+      }
+      .bok
+      {
+      /* border: 1px solid #6c757d; */
+       height: 50px;
+       color: white;
+       font-size: 15px;
+       font-weight: bolder;
+       background: #dfa974;
+       color: #ffffff;
+       text-transform: uppercase;
+       letter-spacing: 2px; 
+        flex-wrap: wrap;
+        padding-top: 12px;
+      }
+      .emialimg
+      {
+        width: 22px;
+        margin-top: -3px;
+        margin-left: 8px;
+        /* padding-left: 10px; */
+      }
+      .telopimg
+      {
+        
+        width: 22px;
+        margin-top: -3px;
+      }
+
+     .col
+     {
+       /* border: 4px solid red; */
+       width: 155px;
+       height: 50px;
+       margin-top: -40px;
+       margin-left:300px ;
+     }
+     .instaimg
+     {
+       width:22px;
+       cursor: pointer;
+       margin-left: -25px;
+       display: flex;
+     }
+    .facimg
+    {
+      width:22px;
+      cursor: pointer;
+      display: flex;
+      margin-left: 11px;
+      
+    }
+    .twitterimg
+    {
+      width:22px;
+      cursor: pointer;
+      display: flex;
+      margin-left: 13px;
+      
+    }
+        
+    .youtubeimg
+    {
+      width:22px;
+      cursor: pointer;
+      display: flex;
+      margin-left: 12px;
+      
+    }
+        
+    .img1
+    {
+      width: 180px;
+      margin-top: 15px;
+      display: flex;
+      justify-content:center ;
+      align-items:center;
+      margin-left: -180px;
+    }
+
+    .normal
+    {
+    /* border: 1px solid red; */
+     height: 40px;
+     width: 160px;
+    }
+
+   .pakimg
+     {
+      max-width: 35px;
+      margin-left: -120px;
+    }
+        
+    p
+    {
+        margin-left: -32px;
+        font-family: serif;
+        font-size: 20px;
+        font-weight: normal;
+        margin-top: -30px;
+        cursor: pointer;  
+    }
+        /* Style for the select element */
+    .custom-select
+    {
+      position: relative;
+      display: inline-block;
+    }
+    
+    
+    .custom-select::after {
+      content: '';
+      position: absolute;
+      top: 45%;
+      right: -15px;
+      transform: translateY(-50%);
+      width: 0;
+      height: 0;
+      cursor: pointer;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 5px solid #000;
+    }
+    .custom-select .select-options 
+    {
+      display: none;
+      position: absolute;
+      top: 55%;
+      left: 0px;
+      z-index: 1;
+      min-width: 50%;
+      box-shadow: 0 0 20px 1px #000;
+      margin-top: 1px;
+      padding: 5px 0;
+      background-color: #fff;
+      border: 1px solid #ccc;
+    }
+    .custom-select .select-options option 
+    {
+      padding: 5px;
+      transition: background-color 0.5s ease;
+    }
+    
+    .custom-select:hover .select-options 
+    {
+      display: block;  
+    }
+    
+    .custom-select .select-options option:hover {
+      background-color: #ccc;
+      color: #DFA95E;
+      cursor: pointer;
+    }
+    .navbar-brand
+    {
+      color: #DFA95E;
+      font-size: 33px;
+    }
+    .navbar-nav .nav-item a
+    {
+      margin-left: 20px;
+      font-size: 18px; 
+    }
+    .navbar
+    {
+      background-color:#ffffff;
+    }
+    
+    .backgroundimg
+    {
+      /* border: 1px solid red; */
+      height: 100vh;
+    }
+
+
+    /*------Hero Section------*/
+.hero-section {
+	position: relative;
+	padding-top: 60px;
+	padding-bottom: 100px;
+  background:url(' Hotel\ Project\ Images/modern-tokyo-street-background.jpg ');
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 2s;
+  animation-name: test;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  transition-property: animation-play-state;
+  cursor:pointer;
+}
+.hero-section:hover
+{
+    animation-play-state: running;
+}
+a{
+  color: #dfa974;
+}
+@keyframes test
+{ 
+  /* 60%
+  {
+    background-image: url("Hotel\ Project\ Images/beautiful-architecture-building-cityscape-tokyo-city-with-rainbow-bridge.jpg");
+  } */
+  60%
+  {
+    background-image: url("Hotel\ Project\ Images/los-angeles-downtown-street-view-night.jpg");
+  }
+   /* 55%
+  {
+    background-image: url("Hotel\ Project\ Images/beautiful-architecture-building-cityscape-tokyo-city-with-rainbow-bridge.jpg");
+  
+  };
+   */
+};
+h3
+{
+  text-align: center; 
+   
+}
+.Bok-hotel{
+  text-align: center;  
+  font-weight: bolder;
+}
+.hero-section .container
+{
+	position: relative;
+	z-index: 5;
+}
+.hero-text
+ {
+	padding-top: 145px;
+}
+.hero-text h1
+ {
+	font-size: 80px;
+	line-height: 90px;
+	color: #ffffff;
+	margin-bottom: 16px;
+}
+.hero-text p
+ {
+	font-size: 18px;
+	color: #ffffff;
+	line-height: 28px;
+  padding-top: 10px;
+  padding-left: 20px;
+	margin-bottom: 35px;
+}
+.booking-form
+ {
+	background: #ffffff;
+	padding: 44px 40px 50px 40px;
+	border-radius: 4px;
+}
+.booking-form h3
+ {
+	color: #19191a;
+	margin-bottom: 36px;
+}
+.booking-form form .check-date, .select-option
+ {
+	margin-bottom: 15px;
+}
+.booking-form form label 
+{
+	font-size: 14px;
+	color: #707079;
+	display: block;
+	margin-bottom: 10px;
+}
+.booking-form form input, select 
+{
+	width: 100%;
+	height: 50px;
+	border: 1px solid #ebebeb;
+	border-radius: 2px;
+	color: #19191a;
+	font-weight: 500;
+	padding: 0px 20px 0px 20px;
+}
+.booking-form form button 
+{
+	display: block;
+	font-size: 14px;
+	text-transform: uppercase;
+	border: 1px solid #dfa974;
+	border-radius: 2px;
+	color: #dfa974;
+	font-weight: 500;
+	background: transparent;
+	width: 100%;
+	height: 46px;
+	margin-top: 30px;
+}
+/* Section portion its strat */
+.section
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    width:100%;
+    padding: 15px;
+    margin: auto;
+    /* border: 1px solid red; */
+    
+}
+
+.text-big
+{
+    font-size: 36px;
+    font-family: sans-serif;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.text-small
+{
+    font-size: 18px;
+    /* font-family: sans-serif; */
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:auto;
+    width: 70%;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+.paras
+{
+    padding: 0px 15px;
+    margin-top: 50px;
+}
+
+
+.thumnail img
+{
+    cursor: pointer;
+    display: block;
+    transition: all 0.5s;
+    margin: 30px;
+    margin-top: 100px;
+    
+}
+
+.thumnail img:hover 
+{
+    /* border: 1px solid black; */
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    transform: scale(1.05);
+  }
+  
+  .thumnail img:active 
+  {
+    transform: scale(0.95) rotateZ(1.7deg);
+  }
+
+  .imgFluid-2
+  {
+    
+    display: flex;
+  }
+  
+.sectionTag
+{
+    padding: 16px 0px;
+}
+.sectionSubTag
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.thumnail-2 img
+{
+  margin-top: 66px;
+  /* border: 4px solid blue; */
+}
+.thumnail-2 img
+{
+    cursor: pointer;
+    display: block;
+    transition: all 0.5s;
+    margin: 30px;
+    margin-top: 100px;
+    
+}
+
+.thumnail-2 img:hover 
+{
+    /* border: 1px solid black; */
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    transform: scale(1.05);
+  }
+  
+  .thumnail-2 img:active 
+  {
+    transform: scale(0.95) rotateZ(1.7deg);
+  }
+
+.text-about
+{
+  font-size: 25px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -40px;
+  color:  #dfa974;
+  
+}
+.Conttainer-Services
+{
+  /* border: 1px solid red; */
+  height: auto; 
+}
+
+.what-text
+{
+  /* border: 1px solid red; */
+  text-align: center;
+  height: 10vh;
+  padding-left: 45%;
+  color:#dfa974 ;
+  margin-top: 20px;
+}
+span h1
+{
+  color:  black;
+  /* border: 1px solid red; */
+}
+.services-section
+ {
+	padding-bottom: 60px;
+	border-top: 1px solid #e5e5e5;
+  
+}
+.services-section .section-title {
+	margin-bottom: 6px;
+}
+.service-item 
+{
+	text-align: center;
+	padding: 50px 50px 18px;
+	transition: all 0.3s;
+  margin-top: 20px;
+  margin-left: 10px;
+  flex-direction: row;
+  /* border: 1px solid red; */
+  flex-wrap: wrap;
+  
+}
+.service-item:hover {
+	background: #dfa974;
+}
+.service-item:hover i {
+	color: #ffffff;
+}
+.service-item:hover h4 {
+	color: #ffffff;
+}
+.service-item:hover p {
+	color: #ffffff;
+}
+.service-item i {
+	display: inline-block;
+	color: #dfa974;
+	transition: all 0.3s;
+}
+.service-item h4 {
+	color: #19191a;
+	font-size: 22px;
+	margin-bottom: 50px;
+	margin-top: 0px;
+	transition: all 0.3s;
+}
+.service-item p {
+	color: #707079;
+	transition: all 0.3s;
+}
+.hp-room-items {
+	margin-left: -15px;
+	margin-right: -15px;
+	overflow: hidden;
+  /* border: 5px solid red; */
+  
+}
+.hp-room-item {
+	height: 600px;
+	margin-right: -15px;
+	position: relative;
+	overflow: hidden;
+  /* border: 1px solid red; */
+  background: rgba(0, 0, 0, 0.4) url("Hotel\ Project\ Images/singleRoom1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -270px;
+}
+.hp-room-item:hover .hr-text {
+	bottom: 135px;
+}
+.hp-room-item:hover .hr-text h2 {
+	margin-bottom: 30px;
+}
+.hp-room-item .hr-text {
+	position: absolute;
+	left: 45px;
+	right: 25px;
+	bottom: -250px;
+	transition: all 0.5s;
+}
+.hp-room-item .hr-text h3 {
+	color: #ffffff;
+	margin-bottom: 15px;
+}
+.hp-room-items .hp-room-item .hr-text h2 {
+	color: #dfa974;
+	font-weight: 700;
+	margin-bottom: 50px;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.hr-text h2 span {
+	font-family: "Cabin", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #ffffff;
+}
+.hr-text table {
+	margin-bottom: 30px;
+}
+.hr-text table tbody tr td {
+	font-size: 16px;
+	color: #ffffff;
+	line-height: 36px;
+}
+.hr-text table tbody tr td.r-o {
+	width: 120px;
+}
+.hr-text .primary-btn:after {
+	background: #ffffff;
+}
+
+/* @2 */
+.hp-room-item-2
+{
+  height: 600px;
+	margin-right: -15px;
+	position: relative;
+	overflow: hidden;
+  /* border: 1px solid red; */
+  background: rgba(0, 0, 0, 0.4) url("Hotel\ Project\ Images/comfortable-modern-bedroom-with-elegant-decoration-lighting-generative-ai.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -240px;
+}
+.hp-room-item-2:hover .hr-text {
+	bottom: 135px;
+}
+.hp-room-item-2:hover .hr-text h2 {
+	margin-bottom: 30px;
+}
+.hp-room-item-2 .hr-text {
+	position: absolute;
+	left: 45px;
+	right: 25px;
+	bottom: -250px;
+	transition: all 0.5s;
+}
+.hp-room-item-2.hr-text h3 {
+	color: #ffffff;
+	margin-bottom: 15px;
+}
+.hp-room-items .hp-room-item-2 .hr-text h2 {
+	color: #dfa974;
+	font-weight: 700;
+	margin-bottom: 50px;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.hr-text h2 span {
+	font-family: "Cabin", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #ffffff;
+}
+.hr-text table {
+	margin-bottom: 30px;
+}
+.hr-text table tbody tr td {
+	font-size: 16px;
+	color: #ffffff;
+	line-height: 36px;
+}
+.hr-text table tbody tr td.r-o {
+	width: 120px;
+}
+.hr-text .primary-btn:after {
+	background: #ffffff;
+}
+
+/* @3 */
+
+.hp-room-item-3
+{
+  height: 600px;
+	margin-right: -15px;
+	position: relative;
+	overflow: hidden;
+  /* border: 1px solid red; */
+  background: rgba(0, 0, 0, 0.4) url("Hotel\ Project\ Images/lampImg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+   background-position: -266px;
+}
+.hp-room-item-3:hover .hr-text {
+	bottom: 135px;
+}
+.hp-room-item-3:hover .hr-text h2 {
+	margin-bottom: 30px;
+}
+.hp-room-item-3 .hr-text {
+	position: absolute;
+	left: 45px;
+	right: 25px;
+	bottom: -250px;
+	transition: all 0.5s;
+}
+.hp-room-item-3.hr-text h3 {
+	color: #ffffff;
+	margin-bottom: 15px;
+}
+.hp-room-items .hp-room-item-3 .hr-text h2 {
+	color: #dfa974;
+	font-weight: 700;
+	margin-bottom: 50px;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.hr-text h2 span {
+	font-family: "Cabin", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #ffffff;
+}
+.hr-text table {
+	margin-bottom: 30px;
+}
+.hr-text table tbody tr td {
+	font-size: 16px;
+	color: #ffffff;
+	line-height: 36px;
+}
+.hr-text table tbody tr td.r-o {
+	width: 120px;
+}
+.hr-text .primary-btn:after {
+	background: #ffffff;
+}
+
+/* @ 4 */
+
+.hp-room-item-4
+{
+  height: 600px;
+	margin-right: -15px;
+	position: relative;
+	overflow: hidden;
+  /* border: 1px solid red; */
+  background: rgba(0, 0, 0, 0.4) url("Hotel\ Project\ Images/modern-studio-apartment-design-with-bedroom-living-space.jpg");
+  
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+   background-position: -300px;
+}
+.hp-room-item-4:hover .hr-text {
+	bottom: 135px;
+}
+.hp-room-item-4:hover .hr-text h2 {
+	margin-bottom: 30px;
+}
+.hp-room-item-4 .hr-text {
+	position: absolute;
+	left: 45px;
+	right: 25px;
+	bottom: -250px;
+	transition: all 0.5s;
+}
+.hp-room-item-4.hr-text h3 {
+	color: #ffffff;
+	margin-bottom: 15px;
+}
+.hp-room-items .hp-room-item-4 .hr-text h2 {
+	color: #dfa974;
+	font-weight: 700;
+	margin-bottom: 50px;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.hr-text h2 span {
+	font-family: "Cabin", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #ffffff;
+}
+.hr-text table {
+	margin-bottom: 30px;
+}
+.hr-text table tbody tr td {
+	font-size: 16px;
+	color: #ffffff;
+	line-height: 36px;
+}
+.hr-text table tbody tr td.r-o {
+	width: 120px;
+}
+.hr-text .primary-btn:after {
+	background: #ffffff;
+}
+/* footer Section Start */
+.container-footer
+{
+  width: 100%;
+  height: 10vh;
+  
+  /* border: 1px solid red; */
+}
+.footer
+{
+  /* border: 4px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  color: white;
+  font-weight: bolder;
+  font-size: 18px;
+  background:url(' Hotel\ Project\ Images/modern-tokyo-street-background.jpg ');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -0px;
+  transition: 2s;
+  animation-name: test-2;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  transition-property: animation-play-state;
+  cursor:pointer;
+}
+.footer:hover
+{
+  animation-play-state: running;
+    
+}
+
+@keyframes test-2
+{ 
+  60%
+  {
+    background-image: url("Hotel\ Project\ Images/beautiful-architecture-building-cityscape-tokyo-city-with-rainbow-bridge.jpg");
+  }
+  60%
+  {
+    background-image: url("Hotel\ Project\ Images/silhouette-palm-tree-with-umbrella.jpg");
+  }
+}
+
+
+
+
+/* RESPONSIVE SECTION START */
+@media only screen and (max-width:994px)
+{ 
+    .section
+    {
+      flex-direction: column;
+    }
+    .text-small
+    {
+      width: 50%;
+
+    }
+    .text-small
+  {
+  }
+    .thumnail img
+    {
+      margin-top: 20px;
+    }
+    .thumnail-2 img
+    {
+      margin-top: 15px;
+    }
+    .con
+    {
+      display: none;
+    }
+    .row
+    {
+      /* border: 1px solid red; */
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 10px auto;
+    } 
+    .hp-room-item
+    {
+      margin: 10px;
+    }
+    .hp-room-item-2
+    {
+      margin: 10px;
+    }
+    .hp-room-item-3
+    {
+      margin: 10px;
+    }
+    .hp-room-item-4
+    {
+      margin: 10px;
+    }
+    /* .row
+    {
+      border: 1px solid red;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    } */
+}
+@media only screen and (min-width:992px)
+{
+  .text-small
+  {
+    /* border: 1px solid yellow ; */
+    height: 40vh;
+    overflow: hidden;
+  }
+}
